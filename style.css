@@ -160,3 +160,11 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+#ganador {
+    font-size: 30px;
+    font-style: bold;
+    color: #f70d0d;
+    margin-top: 20px;
+    text-align: center;
+}
