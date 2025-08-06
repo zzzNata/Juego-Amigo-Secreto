@@ -36,3 +36,14 @@ function sortearAmigo() {
         document.getElementById("ganador").innerText = "Agrega algunos amigos para sortear";
     }
 }
+
+function reiniciarJuego() {
+    listaDeAmigosEnLaPagina.innerHTML= "";
+    document.getElementById("ganador").innerText= "";
+    reinicioArrays();
+    return;
+}
+
+function reinicioArrays () {
+   nombreAmigos.splice(0, nombreAmigos.length); // Reinicia el array
+}
