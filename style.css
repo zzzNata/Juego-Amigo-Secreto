@@ -127,13 +127,18 @@ button {
 
 .boton-new {
    display: flex;
-
     align-items: center;
     margin-top: 20px;
     width: 100%;
     color: var(--color-white);
     background-color: var(--color-button);
     font-size: 16px; 
+    transition: transform 0.3s ease;
+}
+
+.boton-new:hover {
+    background-color: var(--color-button-hover);
+    transform: scale(1.1);
 }
 
 .boton-new img{
@@ -167,6 +172,7 @@ ul {
     color: var(--color-white);
     background-color: var(--color-button);
     font-size: 16px;
+    transition: transform 0.3s ease;
 }
 
 .button-draw img {
@@ -175,6 +181,7 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+     transform: scale(1.1);
 }
 
 #ganador {

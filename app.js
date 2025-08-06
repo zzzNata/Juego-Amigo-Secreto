@@ -2,7 +2,7 @@
 let nombreAmigos= [];
 let amigos= document.getElementById ("amigo");
 let listaDeAmigosEnLaPagina= document.getElementById("listaAmigos");
-
+//funcion que añade los amigos a las lista
 function agregarAmigo() {
     let nombreNuevo = amigos.value
     if (nombreNuevo !=="") {
@@ -36,14 +36,14 @@ function sortearAmigo() {
         document.getElementById("ganador").innerText = "Agrega algunos amigos para sortear";
     }
 }
-
+//esta funcion reinicia el juego
 function reiniciarJuego() {
     listaDeAmigosEnLaPagina.innerHTML= "";
     document.getElementById("ganador").innerText= "";
     reinicioArrays();
     return;
 }
-
+//funcion que reincia a cero el array
 function reinicioArrays () {
    nombreAmigos.splice(0, nombreAmigos.length); // Reinicia el array
 }
