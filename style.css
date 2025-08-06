@@ -125,6 +125,22 @@ button {
     background-color: #a1a1a1;
 }
 
+.boton-new {
+   display: flex;
+
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    color: var(--color-white);
+    background-color: var(--color-button);
+    font-size: 16px; 
+}
+
+.boton-new img{
+    margin-right: 40px;
+    margin-left: 10px;
+}
+
 /* Listas */
 ul {
     list-style-type: none;
@@ -163,6 +179,8 @@ ul {
 
 #ganador {
     font-size: 30px;
+    font-style: bold;
+    margin-bottom: 20px;
     font-style: bold;
     color: #f70d0d;
     margin-top: 20px;
